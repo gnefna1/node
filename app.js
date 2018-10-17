@@ -84,7 +84,7 @@ app.post("/login", bodyParser.json(), function (req, res) {
 // `updata user set (password,email) values('${}')`
 
 
-var server = app.listen(80,function(){
+var server = app.listen(8080,function(){
     var host = server.address().address;
     var port = server.address().port;
 
